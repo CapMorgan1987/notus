@@ -41,9 +41,9 @@
       </div>
       <div class="menu-list d-flex flex-column">
         <v-btn class="menu-text" plain to="/"><p>HOME</p></v-btn>
-        <v-btn class="menu-text" plain to="/gallery"><p>TASK 3</p></v-btn>
-        <v-btn class="menu-text" plain to="/slider"><p>TASK 4</p></v-btn>
-        <v-btn class="menu-text" plain to="/map"><p>TASK 5</p></v-btn>
+        <v-btn class="menu-text" plain to="/gallery"><p>GALLERY</p></v-btn>
+        <v-btn class="menu-text" plain to="/slider"><p>SLIDER</p></v-btn>
+        <v-btn class="menu-text" plain to="/map"><p>MAP</p></v-btn>
       </div>
     </v-navigation-drawer>
   </div>

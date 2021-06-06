@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <v-main>
-      <router-view />
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
     </v-main>
   </v-app>
 </template>
@@ -28,6 +30,17 @@
     padding: 0 !important;
     margin: 0 !important;
     height: auto !important;
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition-duration: 0.7s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+  }
+
+  .fade-enter,
+  .fade-leave-active {
+    opacity: 0;
   }
   @media screen and (max-width: 960px) {
     #app {
